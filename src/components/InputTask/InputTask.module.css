@@ -1,0 +1,36 @@
+.InputTask {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.InputTask i {
+  font-size: 2.5rem;
+  color: rgb(213, 213, 213);
+  transition: 0.3s;
+}
+
+.InputTask i:hover {
+  color: initial;
+  cursor: pointer;
+}
+
+
+.InputTask input {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  padding: 5px;
+  outline: none;
+  font-size: 1.4rem;
+  font-family: "Open Sans";
+  color: #4b4b4b;
+}
+
+.InputTask input::placeholder {
+  color: rgb(213, 213, 213);
+  font-style: italic;
+  font-size: 1.3rem;
+}

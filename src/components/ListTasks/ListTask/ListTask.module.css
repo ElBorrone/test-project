@@ -1,0 +1,66 @@
+.ListTask {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-top: 1px solid rgb(225, 225, 225);
+}
+
+.ListTask input[type="text"] {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 1.4rem;
+  font-family: "Open Sans";
+  color: #4b4b4b;
+  transition: 0.3s;
+}
+
+.ListTask input[type="text"]:disabled {
+  background-color: inherit;
+}
+
+.ListTask label span {
+  height: 23px;
+  width: 23px;
+  margin-top: 6px;
+  margin-left: 16px;
+  margin-right: 12px;
+  border: 1px solid rgb(213, 213, 213);;
+  border-radius: 100%;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+.ListTask label span:hover {
+  border-color: rgb(48, 48, 48);
+}
+
+.ListTask input[type=checkbox] {
+  display: none;
+}
+
+.ListTask input[type=checkbox]:checked + span:before {
+  content: '\2714';
+  position: absolute;
+  color: green;
+  margin: auto;
+  top: 0;
+  left: 5px;
+}
+
+.ListTask i {
+  font-size: 1.2rem;
+  color: rgb(213, 213, 213);
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.ListTask i:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+@keyframes animate {
+
+}

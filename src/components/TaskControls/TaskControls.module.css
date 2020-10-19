@@ -1,0 +1,25 @@
+.TaskControls {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.TaskControls .items{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid rgb(221, 221, 221);
+  color: #919191;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 0.8em;
+}
+
+.TaskControls .selectionButtons{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
